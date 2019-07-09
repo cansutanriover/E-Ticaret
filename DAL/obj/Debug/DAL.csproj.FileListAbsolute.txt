@@ -1,0 +1,12 @@
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\DAL.dll.config
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\DAL.dll
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\DAL.pdb
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Cansu\Desktop\E-ticaret\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cansu\Desktop\E-ticaret\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Cansu\Desktop\E-ticaret\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Cansu\Desktop\E-ticaret\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Cansu\Desktop\E-ticaret\DAL\obj\Debug\DAL.dll
+C:\Users\Cansu\Desktop\E-ticaret\DAL\obj\Debug\DAL.pdb
