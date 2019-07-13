@@ -9,9 +9,9 @@ using System.Web.Http;
 
 namespace Service.Controllers
 {
-    public class SeviceController : ApiController
+    public class ServiceController : ApiController
     {
-        // GET: api/Sevice
+        // GET: api/Service
         public List<Product> Get()
         {
             using (ShopContext context=new ShopContext())
@@ -21,26 +21,26 @@ namespace Service.Controllers
             
         }
 
-        // GET: api/Sevice/5
+        // GET: api/Service/5
         public Product Get(int id)
         {
             using (ShopContext context=new ShopContext())
             {
-                return context.Products.Single(x=> x.Id==id);
+                return context.Products.Single(x => x.Id == id);
             }
         }
 
-        // POST: api/Sevice
+        // POST: api/Service
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT: api/Sevice/5
+        // PUT: api/Service/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/Sevice/5
+        // DELETE: api/Service/5
         public void Delete(int id)
         {
         }

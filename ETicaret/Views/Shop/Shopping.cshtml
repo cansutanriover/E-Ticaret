@@ -1,7 +1,41 @@
-﻿
+﻿@model List<DAL.Model.Product>
 @{
-    ViewBag.Title = "Shopping";
+    Layout = null;
 }
+<html>
+<head>
+    <title>Shopping</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Ürün Listesi</h1>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <th>Ürün Adı</th>
+                        <th>Fiyat</th>
+                        <th>Görüntü</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Price</td>
+                        <td>@item.Image</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
 
-<h2>Shopping</h2>
 
